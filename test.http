@@ -4,5 +4,6 @@ GET http://localhost:7071/api/PSHttpTriggerDemo?containerName=demo
 
 
 ### deployed
+### replace with correct storage account container name & acc name
 
 GET https://begim1975-demops1func.azurewebsites.net/api/PSHttpTriggerDemo?containerName=demo&accName=begimreadfromdemo
