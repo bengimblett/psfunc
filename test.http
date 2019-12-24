@@ -5,4 +5,4 @@ GET http://localhost:7071/api/PSHttpTriggerDemo?containerName=demo
 
 ### deployed
 
-GET https://begim1975-demops1func.azurewebsites.net/api/PSHttpTriggerDemo?containerName=world
+GET https://begim1975-demops1func.azurewebsites.net/api/PSHttpTriggerDemo?containerName=demo&accName=begimreadfromdemo
