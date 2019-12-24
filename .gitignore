@@ -5,4 +5,4 @@ obj
 appsettings.json
 local.settings.json
 *.zip
-deploy
+publish

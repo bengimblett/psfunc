@@ -59,7 +59,7 @@ if ($xmlcontent -and $xmlcontent.Length -gt 3) {
     [byte]$char3 = [System.Convert]::ToByte([char]$xmlcontent.Substring(2,1))
 
     ## UTF8 BOM 239 187 191 - storage service appears to add an explicit utf8 bom 
-    # Ã¯Â»Â¿<?xml version="1.0" encoding="utf-8"?>
+    # ï»¿<?xml version="1.0" encoding="utf-8"?>
     if ( $char1 -eq 239 -and $char2 -eq 187 -and $char3 -eq 191 ){
         write-host "encoding is utf8"
         $utf8Bom = $true
@@ -92,3 +92,4 @@ Push-OutputBinding -Name Response -Value ([HttpResponseContext]@{
     StatusCode = $status
     Body = $body
 })
+
